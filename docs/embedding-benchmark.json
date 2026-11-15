@@ -1,0 +1,138 @@
+{
+  "ranAt": "2026-11-07T20:49:35.269Z",
+  "corpusChunks": 18,
+  "k": 5,
+  "results": [
+    {
+      "model": "Xenova/multilingual-e5-small",
+      "dimensions": 384,
+      "approxSizeMb": 118,
+      "firstLoadMs": 952,
+      "ingestMs": 430,
+      "ingestMsPerChunk": 23.88888888888889,
+      "overall": {
+        "queries": 56,
+        "recallAt5": 0.9821428571428571,
+        "mrrAt5": 0.9172619047619047,
+        "meanLatencyMs": 7.494528571428565
+      },
+      "crossLingualRecallAt5": 0.9772727272727273,
+      "crossLingualMrrAt5": 0.8946969696969697,
+      "languages": [
+        {
+          "language": "en",
+          "queries": 12,
+          "recallAt5": 1,
+          "mrrAt5": 1,
+          "meanTop1": 0.891917877997655,
+          "meanLatencyMs": 6.809558333333295
+        },
+        {
+          "language": "hi",
+          "queries": 11,
+          "recallAt5": 0.9090909090909091,
+          "mrrAt5": 0.9090909090909091,
+          "meanTop1": 0.8370994019590602,
+          "meanLatencyMs": 7.747236363636313
+        },
+        {
+          "language": "te",
+          "queries": 11,
+          "recallAt5": 1,
+          "mrrAt5": 0.9272727272727272,
+          "meanTop1": 0.813469223446326,
+          "meanLatencyMs": 8.263636363636373
+        },
+        {
+          "language": "ta",
+          "queries": 11,
+          "recallAt5": 1,
+          "mrrAt5": 0.7424242424242423,
+          "meanTop1": 0.7968041226121294,
+          "meanLatencyMs": 7.692927272727254
+        },
+        {
+          "language": "hi-en",
+          "queries": 11,
+          "recallAt5": 1,
+          "mrrAt5": 1,
+          "meanTop1": 0.8546283707985172,
+          "meanLatencyMs": 7.021554545454612
+        }
+      ],
+      "scores": {
+        "positiveTop1P10": 0.7911003142682206,
+        "negativeTop1P90": 0.7838967460810184,
+        "negativeTop1Max": 0.8078729349658258,
+        "suggestedMinRelevance": 0.787,
+        "separated": true
+      }
+    },
+    {
+      "model": "Xenova/paraphrase-multilingual-MiniLM-L12-v2",
+      "dimensions": 384,
+      "approxSizeMb": 118,
+      "firstLoadMs": 1468,
+      "ingestMs": 605,
+      "ingestMsPerChunk": 33.611111111111114,
+      "overall": {
+        "queries": 56,
+        "recallAt5": 0.7857142857142857,
+        "mrrAt5": 0.6321428571428571,
+        "meanLatencyMs": 7.193858928571509
+      },
+      "crossLingualRecallAt5": 0.7272727272727273,
+      "crossLingualMrrAt5": 0.5469696969696969,
+      "languages": [
+        {
+          "language": "en",
+          "queries": 12,
+          "recallAt5": 1,
+          "mrrAt5": 0.9444444444444443,
+          "meanTop1": 0.6490204566256766,
+          "meanLatencyMs": 6.657433333333302
+        },
+        {
+          "language": "hi",
+          "queries": 11,
+          "recallAt5": 0.8181818181818182,
+          "mrrAt5": 0.6515151515151515,
+          "meanTop1": 0.5468221655583229,
+          "meanLatencyMs": 7.604763636363714
+        },
+        {
+          "language": "te",
+          "queries": 11,
+          "recallAt5": 0.5454545454545454,
+          "mrrAt5": 0.33636363636363636,
+          "meanTop1": 0.27997919208136524,
+          "meanLatencyMs": 7.94347272727282
+        },
+        {
+          "language": "ta",
+          "queries": 11,
+          "recallAt5": 0.6363636363636364,
+          "mrrAt5": 0.40454545454545454,
+          "meanTop1": 0.26633541609946226,
+          "meanLatencyMs": 7.250109090909229
+        },
+        {
+          "language": "hi-en",
+          "queries": 11,
+          "recallAt5": 0.9090909090909091,
+          "mrrAt5": 0.7954545454545454,
+          "meanTop1": 0.4828082933642422,
+          "meanLatencyMs": 6.5622818181819556
+        }
+      ],
+      "scores": {
+        "positiveTop1P10": 0.21198220850071783,
+        "negativeTop1P90": 0.16609345021891747,
+        "negativeTop1Max": 0.2161671789380701,
+        "suggestedMinRelevance": 0.189,
+        "separated": true
+      }
+    }
+  ],
+  "chosen": "Xenova/multilingual-e5-small"
+}

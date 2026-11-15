@@ -1,0 +1,10 @@
+{
+  "title": "DEMO - Centrifugal Pump Operation and Troubleshooting Guide",
+  "documentType": "manual",
+  "equipmentTypes": [
+    "pump",
+    "motor"
+  ],
+  "equipmentCodes": [],
+  "demo": true
+}

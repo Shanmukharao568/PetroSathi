@@ -1,0 +1,17 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+uploads/
+chroma-data/
+*.log
+.DS_Store
+.vite/
+
+# Phase 6: local tooling and model caches
+backend/tools/chroma-venv/
+backend/.models/
+chroma-data/
+backend/chroma-data/

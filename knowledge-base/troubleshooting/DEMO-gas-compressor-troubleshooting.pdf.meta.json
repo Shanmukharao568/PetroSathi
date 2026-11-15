@@ -1,0 +1,9 @@
+{
+  "title": "DEMO - Gas Compressor Troubleshooting Notes",
+  "documentType": "troubleshooting",
+  "equipmentTypes": [
+    "compressor"
+  ],
+  "equipmentCodes": [],
+  "demo": true
+}

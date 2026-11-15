@@ -1,0 +1,14 @@
+{
+  "title": "DEMO - Hydrocarbon Leak and Gas Smell Reporting Guide",
+  "documentType": "safety",
+  "equipmentTypes": [
+    "separator",
+    "pipeline",
+    "vessel",
+    "pump",
+    "compressor",
+    "valve"
+  ],
+  "equipmentCodes": [],
+  "demo": true
+}

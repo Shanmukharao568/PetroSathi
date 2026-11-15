@@ -1,0 +1,9 @@
+{
+  "title": "DEMO - Shell and Tube Heat Exchanger Inspection Checklist",
+  "documentType": "inspection",
+  "equipmentTypes": [
+    "heat_exchanger"
+  ],
+  "equipmentCodes": [],
+  "demo": true
+}
